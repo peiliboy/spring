@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75c989dc-87db-4445-818d-c9471e9eebf3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/tedu/bean/DemoScope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/tedu/bean/DemoLzay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/tedu/bean/BeanLife.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/tedu/bean/BeanLife.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/TestDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/test/TestDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/TestDB.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,8 +21,8 @@
       <file leaf-file-name="TestDB.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/TestDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+            <state relative-caret-position="356">
+              <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,11 +65,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Scope.class" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Scope.class" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/lib/spring-context-4.3.18.RELEASE.jar!/org/springframework/context/annotation/Scope.class">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoLzay.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/bean/DemoLzay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#147#148#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lazy.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/spring-context-4.3.18.RELEASE.jar!/org/springframework/context/annotation/Lazy.class">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -127,9 +146,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/src/main/java/cn/tedu/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/tedu/bean/BeanLife.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/TestDB.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/tedu/bean/DemoScope.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/TestDB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/tedu/bean/DemoLzay.java" />
       </list>
     </option>
   </component>
@@ -291,7 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestDB.testScope">
+  <component name="RunManager" selected="JUnit.TestDB.testLzay">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -354,6 +374,29 @@
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.TestDB" />
       <option name="METHOD_NAME" value="testDao" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestDB.testLzay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestDB" />
+      <option name="METHOD_NAME" value="testLzay" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -502,9 +545,11 @@
       <item itemvalue="JUnit.TestDB.testDao" />
       <item itemvalue="JUnit.TestDB.testBean" />
       <item itemvalue="JUnit.TestDB.testScope" />
+      <item itemvalue="JUnit.TestDB.testLzay" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestDB.testLzay" />
         <item itemvalue="JUnit.TestDB.testScope" />
         <item itemvalue="JUnit.TestDB.testBean" />
         <item itemvalue="JUnit.TestDB.testDao" />
@@ -523,7 +568,7 @@
       <option name="presentableId" value="Default" />
       <updated>1531879738637</updated>
       <workItem from="1531879750557" duration="13136000" />
-      <workItem from="1531895562273" duration="1773000" />
+      <workItem from="1531895562273" duration="2950000" />
     </task>
     <task id="LOCAL-00001" summary="first comment">
       <created>1531890817075</created>
@@ -543,18 +588,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestDB_testDB - 2018.07.18 at 11h 18m 56s.xml">
-      <configuration name="TestDB.testDB" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDB_testDB - 2018.07.18 at 11h 19m 53s.xml">
-      <configuration name="TestDB.testDB" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDB_testDao - 2018.07.18 at 11h 45m 33s.xml">
-      <configuration name="TestDB.testDao" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDB_testBean - 2018.07.18 at 14h 29m 42s.xml">
-      <configuration name="TestDB.testBean" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestDB_testBean - 2018.07.18 at 14h 30m 15s.xml">
       <configuration name="TestDB.testBean" configurationId="JUnit" />
     </history-entry>
@@ -573,9 +606,21 @@
     <history-entry file="TestDB_testScope - 2018.07.18 at 14h 45m 59s.xml">
       <configuration name="TestDB.testScope" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestDB_testLzay - 2018.07.18 at 15h 16m 50s.xml">
+      <configuration name="TestDB.testLzay" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDB_testLzay - 2018.07.18 at 15h 17m 05s.xml">
+      <configuration name="TestDB.testLzay" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDB_testLzay - 2018.07.18 at 15h 27m 11s.xml">
+      <configuration name="TestDB.testLzay" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDB_testLzay - 2018.07.18 at 15h 27m 19s.xml">
+      <configuration name="TestDB.testLzay" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14909000" />
+    <option name="totallyTimeSpent" value="16086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -658,7 +703,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/test/TestDB.java</url>
-          <line>17</line>
+          <line>19</line>
           <properties class="test.TestDB" method="testDB">
             <option name="EMULATED" value="true" />
           </properties>
@@ -758,6 +803,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-core-4.3.18.RELEASE.jar!/org/springframework/core/annotation/AliasFor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/bean/BeanLife.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -777,13 +829,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/TestDB.java">
+    <entry file="jar://$PROJECT_DIR$/lib/spring-context-4.3.18.RELEASE.jar!/org/springframework/context/annotation/Scope.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="209">
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -797,17 +846,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-core-4.3.18.RELEASE.jar!/org/springframework/core/annotation/AliasFor.class">
+    <entry file="jar://$PROJECT_DIR$/lib/spring-context-4.3.18.RELEASE.jar!/org/springframework/context/annotation/Lazy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="171">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-context-4.3.18.RELEASE.jar!/org/springframework/context/annotation/Scope.class">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/TestDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="356">
+          <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/bean/DemoLzay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
