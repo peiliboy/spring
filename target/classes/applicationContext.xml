@@ -7,7 +7,6 @@
     <!--读属性文件
         location:读取配置文件位置，classpath表示mian/resources下
     -->
-
     <util:properties id="dbConfig" location="classpath:db.properties"/>
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
         <property name="driverClassName" value="#{dbConfig.driver}"/>
@@ -15,6 +14,7 @@
         <property name="username" value="#{dbConfig.username}"/>
         <property name="password" value="#{dbConfig.password}"/>
     </bean>
+
     <context:component-scan base-package="cn.tedu.dao"/>
     <context:component-scan base-package="cn.tedu.bean"/>
     <!--<context:component-scan base-package="cn.tedu"/> 导包及其子包-->
