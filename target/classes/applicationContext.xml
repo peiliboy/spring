@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--读属性文件
+        location:读取配置文件位置，classpath表示mian/resources下
+    -->
+    <util:properties id="dbConfig" location="classpath:db.properties"/>
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="#{dbConfig.driver}"/>
+        <property name="url" value="#{dbConfig.url}"/>
+        <property name="username" value="#{dbConfig.username}"/>
+        <property name="password" value="#{dbConfig.password}"/>
+    </bean>
+    <context:component-scan base-package="cn.tedu.dao"/>
+</beans>
